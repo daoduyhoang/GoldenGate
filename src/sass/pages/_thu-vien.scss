@@ -1,0 +1,90 @@
+@import '../variable';
+@import '../components';
+@import '../components/header';
+@import '../components/footer';
+//LIBRARY PHOTO>
+#library,#video-library{
+    font-family: $openSan;
+    .title-library{
+        @include title-page(36px,600);
+        padding: 70px 0;
+        color: $grey-text;
+    }
+    .btn{
+        color: $white;
+        background-color:$btn-color;
+        font-family: $mon;
+        font-weight: 500;
+        border-radius: 30px;
+        padding: 5px 2rem;
+        font-size: 21px;
+        margin: 70px auto;
+        display: block;
+    }
+    .library-main-content{
+        padding: 0 5rem;
+    }
+    .content-library{
+        color: $white;
+        border-bottom: 2px solid grey;
+        .library-img{
+            width: 100%;
+            position: relative;
+            @include bg-image();
+            border-radius: 15px;
+            .text{
+                position: absolute;
+                bottom: 0;
+                left: 25px;
+                h2{
+                    @include title-page(24px,700);
+                    text-transform: uppercase;
+                }
+                p{
+                    @include title-page(24px,600);
+                }
+            }
+        }
+        .img-1{
+            background-image: url("../../images/library/thu_vien_1.png");
+            min-height: 407px;
+            margin-bottom: 30px;
+        }
+        .img-2{
+            background-image: url("../../images/library/thu_vien_3.png");
+            min-height: 407px;
+        }
+        .img-3{
+            background-image: url("../../images/library/thu_vien_2.png");
+            min-height: 843px;
+        }
+        .img-4{
+            background-image: url("../../images/library/thu_vien_4.png");
+            min-height: 592px;
+            margin: 0 15px;
+        }
+        .pt-30{
+            padding-top: 30px;
+        }
+    }
+}
+// LIBRARY VIDEO
+.video-list{
+    .video{
+        width: 50%;
+        .mg-25{
+            margin: 0 25px 10px 0;
+            border-radius: 20px;
+        }
+        .text{
+            margin-bottom: 25px;
+            h2{
+                @include title-page(24px,700);
+                text-transform: uppercase;
+            }
+            p{
+                @include title-page(24px,500);
+            }
+        }
+    }
+}

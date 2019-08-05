@@ -1,0 +1,138 @@
+@import"variable";
+@import"mixin";
+.active-bg{
+    color: #cf9a2b;
+}
+// CAROUSEL
+.carousel{
+    .indicators{
+        border: 2px solid #fff; 
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    .active{
+        background-color:transparent;
+        border: 4px solid $btn-color;
+        width: 15px;
+        height: 15px;
+        line-height: 7.5px;
+    }
+}
+// DEMO PROJECT
+.project{
+    .demo-project{
+        position: absolute;
+        width: 100%;
+        left: 8%;
+        .img-demo{
+            border-radius: 20px;
+        }
+        .demo-1{
+            min-height: 501px;
+            padding: 0;
+            border-radius: 20px;
+            background-color: #fff;
+            margin-right: 15px;
+        }
+        .text-demo{
+            background-color: $white;
+            align-items: center;
+            margin-top: 10px;
+            p{
+                margin: 0 20px;
+                font-family: $mon;
+                font-weight: 300;
+            }
+            .btn-demo{
+                background-color:$btn-color;
+                border-radius: 20px;
+                border: none;
+                font-family: $mon;
+                font-weight: 500;
+                color: $white;
+                padding: 0 20px;
+                margin-left: 100px;
+            }
+        }
+        .list-demo{
+            .bg-demo{
+                min-height: 272px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+                padding: 0;
+            }
+            .demo-2{
+                background-image: url("../../images/Home/Chi_tiet_2ok.png"); 
+            }
+            .demo-3{
+                background-image: url("../../images/Home/Chi_tiet_3.png");
+            }
+            .demo-4{
+                background-image: url("../../images/Home/Chi_tiet_4ok.png");
+                margin-top: 30px;
+            }
+            .demo-5{
+                background-image: url("../../images/Home/chi_tiet_5.png"); 
+                margin-top: 30px;
+            }
+            .demo-2,.demo-4{
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            .demo-3,.demo-5{
+                margin-left: 15px;
+            }
+            .detail{
+                font-family: $mon;
+                color: $white;
+                font-weight: 500;
+                margin-left: 15px;
+                position: relative;
+                top: 60%;
+                .text-detail{
+                    font-size: 1rem;
+                }
+                .title-detail{
+                    font-size: 1rem;
+                    .arrow{
+                        transform: rotate(90deg);
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
+// END DEMO PROJECT
+// LIST PROJECT
+.project{
+    position: relative;
+    .mid-menu{
+        padding-left: 35px;
+        padding-right: 20px;
+        align-items: baseline;
+        margin: 70px 0;
+        .title-project{
+            font-family: $mon;
+            color: $white;
+            @include title-page(40px,600);
+        }
+        .menu-project{
+            font-family: $mon;
+            font-weight: 500;
+            margin: 0;
+            .project-pages{
+                a{
+                    text-decoration: none;
+                    color: $grey-text;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

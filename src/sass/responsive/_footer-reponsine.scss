@@ -1,0 +1,24 @@
+@import '../variable';
+@media(max-width:992px){
+    #footer{
+        background-size: cover;
+        .content-footer{
+            .sign{
+                margin-top: 70px;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+    #footer .content-footer .icon-contact .icon-social{
+        padding: 7px 12px;
+    }
+}
+@media(max-width:768px){
+    #footer .content-footer .icon-contact .icon-social{
+        padding: 9px 12px;
+    }
+    #footer .content-footer .sign .btn-sign{
+        margin: auto;
+        display: block;
+    }
+}

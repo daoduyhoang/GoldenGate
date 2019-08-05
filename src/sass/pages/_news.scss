@@ -1,0 +1,89 @@
+@import '../variable';
+@import '../components';
+@import '../components/header';
+@import '../components/footer';
+#highlights-news{
+    font-family: $mon;
+    color: $grey-text;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    .hl-news{
+        padding: 0 3rem;
+        .highlights-news-title{
+            @include title-page(47px,500);
+        }
+        .img-highlights-news{
+            width: 100%;
+            min-height: 700px;
+            border-radius: 20px;
+        }
+        .hl-news-info{
+            margin: 50px 0;
+            background-color: $light-blue;
+            .text-hl-news{
+                padding: 20px 20px;
+                .text-hl-news-title{
+                    @include title-page(47px,600);
+                }
+                h3{
+                    @include title-page(14px,600);
+                }
+                .news-date{
+                    color: $yellow-text;
+                    @include title-page(21px,400);
+                }
+                .text{
+                    line-height: 22px;
+                    @include title-page(14px,400);
+                }
+                .btn{
+                    color: $white;
+                    background-color: $btn-color;
+                    font-family: $mon;
+                    font-weight: 500;
+                    border-radius: 30px;
+                    padding: 5px 2rem;
+                    font-size: 21px;
+                    display: block;
+                }
+            }
+        }
+    }
+   
+}
+// DEMO PROJECT
+.bg-pj{
+    padding: 90px 0;
+    background-image: url("../../images/Tin_noi_bat/bg_2.png");
+    width: 100%;
+    min-height: 775px;
+}
+// DEMO VIDEO
+#video-highlight{
+    .title-video{
+        @include title-page(47px,600);
+        padding: 60px 0;
+        margin-left: 2rem;
+    }
+    video{
+        border-radius: 30px;
+    }
+    .btn{
+        color: $white;
+        background-color:$btn-color;
+        font-family: $mon;
+        font-weight: 500;
+        border-radius: 30px;
+        padding: 5px 2rem;
+        font-size: 21px;
+        margin: 70px auto;
+        display: block;
+    }
+}
+//FOOTER NEWS
+.logo-footer{
+    max-width: 236px;
+    min-height: 164px;
+    padding-top: 119px;
+    margin-left: 60px;
+}

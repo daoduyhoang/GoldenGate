@@ -1,0 +1,100 @@
+@import '../variable';
+@import '../components';
+@import '../components/header';
+@import '../components/footer';
+#main-content-info{
+    background-image: url("../../images/thong-tin/bg_1.png");
+    font-family: $openSan;
+    // width: 673px;
+    min-height:898px ;
+    background-position: top right;
+    background-repeat: no-repeat;
+    .block-1{
+        padding: 0 5rem;
+        padding-top: 30px;
+        margin-bottom: 100px;
+        img{
+            width: 100%;
+            min-height: 779px;
+            border-radius: 20px;
+        }
+        h1{
+            @include title-page(50px,700);
+            color: $green;
+            padding: 60px 0;
+        }
+        .title-block{
+            @include title-page(45px,700);
+            color: $green;
+            padding-bottom: 70px;
+        }
+        .text-block{
+            font-family: $mon;
+            @include title-page(20px,400);
+            color: $grey-text;
+            padding-bottom: 60px;
+        }
+    }
+    .block-2{
+       .text-block-2{
+           @extend .block-1;
+           margin-bottom: 10px;
+           .title-block{
+               padding-bottom: 30px;
+           }
+           .img-block-2{
+               width: 100%;
+               min-height: 748px;
+           }
+       }
+    }
+    .block-3{
+        @extend .block-1;
+        margin-bottom: 10px;
+        margin-right: 100px;
+        .img-block-3{
+            @extend .img-block-2;
+            min-height: 727px;
+            margin-left: 100px;
+        }
+    }
+    .block-4{
+        .text-block-4{
+            @extend .block-1;
+            margin-bottom: 10px;
+           .title-block{
+               padding-bottom: 30px;
+           }
+           .img-block-2{
+               width: 100%;
+               min-height: 748px;
+           }
+           .text-block{
+               padding-bottom: 10px;
+           }
+        }
+        .img-block-4{
+            .img-4{
+                min-height: 471px;
+            }
+            .h-600{
+                height: 605px;
+            }
+        }
+    }
+    .block-5{
+        @extend .block-1;
+        padding: 0;
+        margin-bottom: 10px;
+        img{
+            border-radius: 0;
+        }
+        .text-block-5{
+            padding: 1rem 5rem;
+            .title-block,.text-block{
+                padding-bottom: 10px;
+            }
+        }
+
+    }
+}

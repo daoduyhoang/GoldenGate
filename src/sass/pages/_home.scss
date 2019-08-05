@@ -1,0 +1,180 @@
+@import '../components/header';
+@import '../components/footer';
+@import '../variable';
+@import '../mixin.scss';
+@import '../components';
+#content-main{
+    width: 100%;
+    min-height: 1765px;
+    background-image: url(../../images/Home/bg-content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .invest-info{
+        font-family: $mon;
+        color: $white;
+        min-height: 878px;
+        padding-top: 100px;
+        padding-left: 30px;
+        .title-invest{
+            @include title-page(47px,600);
+            span{
+                padding-left: 30px;
+            }
+        }
+        .view-invest{
+            @include title-page(21px,500);
+            position: absolute;
+            bottom: 6%;
+            .arrow{
+                transform: rotate(90deg);
+                font-size: 30px;
+                color: $btn-color;
+                margin-left: 10px;
+            }
+        }
+    }
+    .pd-31{
+        padding-top: 35px;
+    }
+    .list-invest{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        .icon{
+            position: absolute;
+        }
+        .img-ivest{
+            width: 100%;
+            min-height: 878px;
+            .info-invest{
+                position: absolute;
+                 top: 60%;
+                 font-family: $mon;
+                 span{
+                     font-size: 25px;
+                     color: $green;
+                     font-weight: 600;
+                     margin: 0;
+                 }
+                 p{
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    color: $white; 
+                    margin: 0;
+                 }
+                 h2{
+                     font-weight: 600;
+                     color: $white;
+                     font-size: 2rem;
+                     text-transform: uppercase;
+                 }
+                 .btn{
+                     color: $white;
+                     background-color: $btn-color;
+                     font-family: $mon;
+                     font-weight: 500;
+                     margin-top: 100px;
+                     border-radius: 30px;
+                     padding: 5 15px;
+                     font-size: 21px;
+                 }
+            }
+        }
+        .invest-item-1{
+            position: relative;
+            background-image: url("../../images/Home/linh-vuc-1.png");
+            .number-slide{
+                position: absolute;
+                top: 50%;
+                left: -25%;
+                button{
+                    border: none;
+                    background: none;
+                    font-size: 21px;
+                    .arrow{
+                        transform: rotate(-90deg);
+                        color: $btn-color;
+                        font-size: 30px;
+                    }
+                }
+                .slide{
+                    color: $green;
+                    padding: 10px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    font-weight: 600;
+                }
+            }
+        }
+        .invest-item-2{
+            background-image: url("../../images/Home/linh-vuc-2.png");
+        }
+        .invest-item-3{
+            background-image: url("../../images/Home/linh-vuc-3.png");
+        }
+        .invest-item-4{
+            background-image: url("../../images/Home/linh-vuc-4.png");
+        }
+    }
+}
+// END MAIN-CONTENT
+#news{
+    position: relative;
+    min-height: 600px;
+    .news-side{
+        font-family: $mon;
+        color: $grey-text;
+        font-weight: 500;
+        padding-top: 20px;
+        .news-side-title{
+            font-size: 47px;
+        }
+        .news-menu{
+            padding-left: 15px;
+            .news-menu-item{
+                display: block;
+                padding: 10px 0;
+                .menu-item-text{
+                    text-decoration: none;
+                    color: $grey-text;
+                    font-size: 15px;
+                }
+            }
+        }
+        .carousel{
+            padding-left: 15px;
+            .indicators{
+                background-color: #a9b0b7;
+            }
+        }
+    }
+    .news-item{
+        position: absolute;
+        top: 0;
+        left: 11%;
+        .new-1{
+            font-family: $mon;
+            color: $grey-text;
+            margin: 0 1rem;
+            .news-img{
+                width: 100%;
+                min-height: 278px;
+                border-radius: 20px;
+            }
+            .news-title{
+                @include title-page(14px,600);
+            }
+            .news-date{
+                color: $yellow-text;
+                display: block;
+                @include title-page(18px,400);
+            }
+            .news-text{
+                @include title-page(17px,400);
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,140 @@
+@import './variable';
+@import './components';
+//--------------------HOME----------------------->
+@media(max-width:992px){
+    #content-main{
+        .list-invest{
+            position: static;
+        }
+        .invest-info{
+            min-height: 0;
+            padding-top: 15px;
+            p{
+               font-size: 1rem;
+            }
+            h2{
+                font-size: 1.6rem;
+            }
+            .btn{
+                color: $white;
+                background-color: $btn-color;
+                font-family: $mon;
+                font-weight: 500;
+                margin-top: 100px;
+                border-radius: 30px;
+                padding: 5px 15px;
+                font-size: 21px;
+            }
+        }
+        .project{
+            .demo-project{
+                position: static;
+                .list-demo{
+                    padding: 30px 0;
+                }
+            }
+        }
+    }
+    #news{
+        .news-item{
+            position: static;
+        }
+    }
+}
+@media(max-width:768px){
+    .demo-1{
+        margin-right: 0;
+    }
+    .demo-2{
+        margin-bottom: 30px;
+    }
+    .demo-3,.demo-5{
+        margin-right: 15px;
+    }
+}
+//--------------------END HOME----------------------->
+//--------------------LIBRARY----------------------->
+@media(max-width:992px){
+    #library{
+        .img-3{
+            margin-top: 30px;
+        }
+    }
+}
+@media(max-width: 768px){
+    .video-list{
+        .video{
+            width: 100%;
+        }
+    }
+}
+//--------------------END LIBRARY----------------------->
+//--------------------DU AN----------------------->
+@media(max-width:992px){
+    #list-project{
+        margin: 0 20px;
+        .pj-item {
+            margin: 0;
+        }
+    }
+}
+//--------------------LINH VUC DAU TU----------------------->
+@media(max-width:992px){
+    #investment{
+        .text-investment{
+            padding-bottom: 2rem;
+        }
+    } 
+}
+//--------------------NEWS----------------------->
+@media(max-width:992px){
+    #highlights-news{
+        margin-bottom: 10px;
+    }
+    .hl-news-info{
+        padding-bottom: 1rem;
+        margin: 30px 0;
+    }
+    .bg-pj{
+        padding: 20px 0;
+    }
+    #video-highlight{
+        video{
+            width: 100%;
+        }
+    }
+}
+//--------------------THONG TIN----------------------->
+@media(max-width:992px){
+    #main-content-info{
+        background-image: none;
+        .img-block-2{
+            padding-bottom: 1.5rem;
+            img{
+                width: 100%;
+            }
+        }
+        .block-2{
+            .text-block-2{
+                padding: 0 2rem;
+            }
+        }
+        .block-3{
+            padding: 0 20px;
+            margin: 0;
+            .img-block-3{
+                margin-left: 0;
+            }
+        }
+        .block-5{
+            .text-block{
+                padding: .5rem 1.2rem;
+            }
+        }
+        .block-6{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

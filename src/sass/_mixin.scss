@@ -1,0 +1,18 @@
+@import"variable";
+@mixin title-page($fsize,$fweight) {
+    font-size: $fsize;
+    font-weight: $fweight;
+}
+@mixin bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin btn($fsize) {
+    color: $white;
+    background-color:$btn-color;
+    font-family: $mon;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 5px 2rem;
+    display: block;
+}
