@@ -2,7 +2,8 @@
 .header{
     background-image: url("../../images/Home/banner.png");
     width: 100%;
-    min-height: 765px;
+    // min-height: 765px;
+    height: 100%;
     @include bg-image();
     background-position: top left;
     padding-top: 60px;
