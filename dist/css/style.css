@@ -1943,29 +1943,32 @@ li {
         font-size: 14px;
         text-transform: uppercase; }
 
+@media (min-width: 993px) and (max-width: 1295px) {
+  #content-main .list-invest .img-ivest .info-invest p {
+    font-size: 1.2rem; }
+  #content-main .list-invest .img-ivest .info-invest h2 {
+    font-size: 1.5rem; }
+  #content-main .pd-31 {
+    padding-top: 28px; } }
+
 @media (max-width: 992px) {
+  #content-main .pd-31 {
+    padding-top: 28px; }
   #content-main .list-invest {
     position: static; }
-  #content-main .invest-info {
-    min-height: 0;
-    padding-top: 15px; }
-    #content-main .invest-info p {
-      font-size: 1rem; }
-    #content-main .invest-info h2 {
-      font-size: 1.6rem; }
-    #content-main .invest-info .btn {
-      color: #fff;
-      background-color: #cf9a2b;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 500;
-      margin-top: 100px;
-      border-radius: 30px;
-      padding: 5px 15px;
-      font-size: 21px; }
+    #content-main .list-invest .invest-info {
+      min-height: 0;
+      padding-top: 15px; }
   #content-main .project .demo-project {
     position: static; }
     #content-main .project .demo-project .list-demo {
       padding: 30px 0; }
+  #content-main .list-invest .img-ivest .info-invest p {
+    font-size: 1.2rem; }
+  #content-main .list-invest .img-ivest .info-invest h2 {
+    font-size: 1.5rem; }
+  #content-main .pd-31 {
+    padding-top: 28px; }
   #news .news-item {
     position: static; } }
 
@@ -1976,6 +1979,30 @@ li {
     margin-bottom: 30px; }
   .demo-3, .demo-5 {
     margin-right: 15px; } }
+
+@media (max-width: 575.98px) {
+  .mobile-none {
+    display: none !important; }
+  .col-xs-12 {
+    width: 100%; }
+  .flex-sx-wrap {
+    flex-wrap: wrap; }
+  #content-main .list-invest .invest-item-1 {
+    background-repeat: no-repeat;
+    background-position: center; }
+  #content-main .list-invest .invest-item-2 {
+    background-repeat: no-repeat;
+    background-position: center; }
+  #content-main .list-invest .invest-item-3 {
+    background-repeat: no-repeat;
+    background-position: center; }
+  #content-main .list-invest .invest-item-4 {
+    background-repeat: no-repeat;
+    background-position: center; }
+  .project .demo-project .demo-1 {
+    margin-left: 15px; }
+  #content-main .project .demo-project .list-demo {
+    padding: 30px 10px; } }
 
 @media (max-width: 992px) {
   #library .img-3 {
