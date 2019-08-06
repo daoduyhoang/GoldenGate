@@ -1,7 +1,7 @@
 @import './variable';
 @import './components';
 //--------------------HOME----------------------->
-@media(min-width:993px) and (max-width:1295px){
+@media(min-width:993px) and (max-width:1299px){
     #content-main .list-invest .img-ivest .info-invest p{
         font-size: 1.2rem;
     }
@@ -47,6 +47,9 @@
             position: static;
         }
     }
+    #content-main .invest-info{
+        min-height: 20px;
+    }
 }
 @media(max-width:768px){
     .demo-1{
@@ -90,6 +93,9 @@
     }
     #content-main .project .demo-project .list-demo {
         padding: 30px 10px;
+    }
+    #content-main .invest-info{
+        min-height: 0;
     }
     
 }

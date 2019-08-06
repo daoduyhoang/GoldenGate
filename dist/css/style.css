@@ -1943,7 +1943,7 @@ li {
         font-size: 14px;
         text-transform: uppercase; }
 
-@media (min-width: 993px) and (max-width: 1295px) {
+@media (min-width: 993px) and (max-width: 1299px) {
   #content-main .list-invest .img-ivest .info-invest p {
     font-size: 1.2rem; }
   #content-main .list-invest .img-ivest .info-invest h2 {
@@ -1970,7 +1970,9 @@ li {
   #content-main .pd-31 {
     padding-top: 28px; }
   #news .news-item {
-    position: static; } }
+    position: static; }
+  #content-main .invest-info {
+    min-height: 20px; } }
 
 @media (max-width: 768px) {
   .demo-1 {
@@ -2002,7 +2004,9 @@ li {
   .project .demo-project .demo-1 {
     margin-left: 15px; }
   #content-main .project .demo-project .list-demo {
-    padding: 30px 10px; } }
+    padding: 30px 10px; }
+  #content-main .invest-info {
+    min-height: 0; } }
 
 @media (max-width: 992px) {
   #library .img-3 {
@@ -2059,7 +2063,9 @@ li {
       margin-top: 70px;
       padding-bottom: 1rem; }
   #footer .content-footer .icon-contact .icon-social {
-    padding: 7px 12px; } }
+    padding: 7px 12px; }
+  #footer .content-footer .sign input {
+    padding-left: 20px; } }
 
 @media (max-width: 768px) {
   #footer .content-footer .icon-contact .icon-social {
@@ -2067,3 +2073,8 @@ li {
   #footer .content-footer .sign .btn-sign {
     margin: auto;
     display: block; } }
+
+@media (max-width: 575.98px) {
+  .header .menu .menu-items {
+    display: block;
+    padding-bottom: 10px; } }

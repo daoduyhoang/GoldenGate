@@ -1,0 +1,15 @@
+@import '../variable';
+@media(max-width:575.98px){
+    // .d-xs-block{
+    //     display: block;
+    // }
+    .header{
+        .menu{
+            .menu-items{
+                display: block;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+}
