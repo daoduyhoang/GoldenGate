@@ -1,0 +1,47 @@
+@import '../variable';
+#detail{
+    margin-top: 2rem;
+    padding: 20px 5rem;
+    .detail-invest{
+        padding-top: 1rem;
+        font-family: $openSan;
+        p{
+            font-size: 19px;
+            font-weight: 400;
+            color: $grey-text;
+        }
+        h1{
+            @include title-page(37px,700);
+            color: $green;
+            padding-bottom: 10px;
+        }
+        .img-detail{
+            position: relative;
+            img{
+                width: 100%;
+                min-height: 562px;
+            }
+            .carousel{
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+            }
+        }
+    }
+    .img-detail-pj{
+        .w-274{
+            height: 276px;
+        }
+        .h-554{
+            height: 554px;
+        }
+    }
+    .text-detail{
+        font-family: $openSan;
+        p{
+            font-size: 19px;
+            font-weight: 400;
+            color: $grey-text;
+        }
+    }
+}

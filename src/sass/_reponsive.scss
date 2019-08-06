@@ -11,6 +11,15 @@
     #content-main .pd-31 {
         padding-top: 28px;
     }
+    .project .demo-project .img-demo {
+        border-radius: 20px;
+        min-height: 476px;
+    }
+    #news .news-item {
+        position: absolute;
+        top: 0;
+        left: 13%;
+    }
 }
 @media(max-width:992px){
     #content-main{
@@ -151,7 +160,16 @@
             width: 100%;
         }
     }
+    .top-video{
+        padding: 0 20px;
+    }
 }
+@media(max-width:575px){
+    #highlights-news .hl-news {
+        padding: 0;
+    }
+}
+
 //--------------------THONG TIN----------------------->
 @media(max-width:992px){
     #main-content-info{
@@ -186,3 +204,16 @@
         }
     }
 }
+//--------------------THONG TIN DU AN----------------------->
+@media(max-width:992px){
+    .text-detail-pj {
+     padding: 0 0 20px 0;
+    }
+}
+//--------------------CHI TIET----------------------->
+@media(max-width:575px){
+    #detail{
+        padding: 20px 0 !important;
+    }
+}
+

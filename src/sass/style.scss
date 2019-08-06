@@ -1,6 +1,6 @@
 @import"./reset";
 @import"variable";
-@import"components";
+@import"./components";
 @import"pages/news";
 @import"mixin";
 @import './components/header';
@@ -13,3 +13,5 @@
 @import './reponsive';
 @import '../sass/responsive/footer-reponsine';
 @import '../sass/responsive/header-responsive';
+@import './pages/thong-tin-du-an';
+@import './pages/chitiet';

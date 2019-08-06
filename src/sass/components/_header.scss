@@ -2,6 +2,7 @@
 .header{
     background-image: url("../../images/Home/banner.png");
     width: 100%;
+    position: relative;
     // min-height: 765px;
     height: 100%;
     @include bg-image();
@@ -11,6 +12,18 @@
         font-family: $openSan;
         @include title-page(30px,bold);
         color: $white;
+    }
+    .link{
+        font-family: $openSan;
+        color: #fff;
+        position: absolute;
+        bottom: 9%;
+        left: 13%;
+        font-weight: bold;
+        font-size: 13px;
+        span{
+            font-size: 36px;
+        }
     }
     .logo{
         max-width: 236px;

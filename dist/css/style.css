@@ -100,8 +100,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -138,6 +138,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -159,6 +162,8 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 .active-bg {
   color: #cf9a2b; }
@@ -205,8 +210,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -243,6 +248,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -264,10 +272,13 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 .header {
   background-image: url("../../images/Home/banner.png");
   width: 100%;
+  position: relative;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -278,6 +289,16 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #fff; }
+  .header .link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 9%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 13px; }
+    .header .link span {
+      font-size: 36px; }
   .header .logo {
     max-width: 236px;
     min-height: 164px;
@@ -302,7 +323,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 440px; }
+  min-height: 440px;
+  height: 100%; }
   #footer video {
     border-radius: 20px; }
   #footer .content-footer {
@@ -315,7 +337,7 @@ li {
     #footer .content-footer .address {
       margin-left: 1.6rem;
       margin-top: 120px;
-      padding-right: 47px; }
+      padding-right: 13px; }
       #footer .content-footer .address span {
         display: block; }
       #footer .content-footer .address .city {
@@ -352,10 +374,11 @@ li {
         font-size: 1rem;
         border-radius: 30px;
         border: none;
-        padding: 15px 40px; }
+        padding: 15px 40px;
+        color: #fff; }
     #footer .content-footer .icon-contact .icon-social {
       display: block;
-      padding: 14px 12px;
+      padding: 12px 12px;
       color: #fff;
       background-color: #cf9a2b;
       margin-bottom: 10px;
@@ -363,6 +386,10 @@ li {
       top: 50%; }
     #footer .content-footer .icon-contact .icon-social-2 {
       top: 56%; }
+
+@media (max-width: 992px) {
+  #footer .content-footer .icon-contact .icon-social-2 {
+    top: 46%; } }
 
 #highlights-news {
   font-family: "Montserrat", sans-serif;
@@ -442,6 +469,7 @@ li {
 .header {
   background-image: url("../../images/Home/banner.png");
   width: 100%;
+  position: relative;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -452,6 +480,16 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #fff; }
+  .header .link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 9%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 13px; }
+    .header .link span {
+      font-size: 36px; }
   .header .logo {
     max-width: 236px;
     min-height: 164px;
@@ -516,8 +554,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -554,6 +592,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -575,10 +616,13 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 .header {
   background-image: url("../../images/Home/banner.png");
   width: 100%;
+  position: relative;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -589,6 +633,16 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #fff; }
+  .header .link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 9%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 13px; }
+    .header .link span {
+      font-size: 36px; }
   .header .logo {
     max-width: 236px;
     min-height: 164px;
@@ -613,7 +667,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 440px; }
+  min-height: 440px;
+  height: 100%; }
   #footer video {
     border-radius: 20px; }
   #footer .content-footer {
@@ -626,7 +681,7 @@ li {
     #footer .content-footer .address {
       margin-left: 1.6rem;
       margin-top: 120px;
-      padding-right: 47px; }
+      padding-right: 13px; }
       #footer .content-footer .address span {
         display: block; }
       #footer .content-footer .address .city {
@@ -663,10 +718,11 @@ li {
         font-size: 1rem;
         border-radius: 30px;
         border: none;
-        padding: 15px 40px; }
+        padding: 15px 40px;
+        color: #fff; }
     #footer .content-footer .icon-contact .icon-social {
       display: block;
-      padding: 14px 12px;
+      padding: 12px 12px;
       color: #fff;
       background-color: #cf9a2b;
       margin-bottom: 10px;
@@ -674,6 +730,10 @@ li {
       top: 50%; }
     #footer .content-footer .icon-contact .icon-social-2 {
       top: 56%; }
+
+@media (max-width: 992px) {
+  #footer .content-footer .icon-contact .icon-social-2 {
+    top: 46%; } }
 
 #main-content-info {
   background-image: url("../../images/thong-tin/bg_1.png");
@@ -786,8 +846,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -824,6 +884,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -845,10 +908,13 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 .header {
   background-image: url("../../images/Home/banner.png");
   width: 100%;
+  position: relative;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -859,6 +925,16 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #fff; }
+  .header .link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 9%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 13px; }
+    .header .link span {
+      font-size: 36px; }
   .header .logo {
     max-width: 236px;
     min-height: 164px;
@@ -883,7 +959,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 440px; }
+  min-height: 440px;
+  height: 100%; }
   #footer video {
     border-radius: 20px; }
   #footer .content-footer {
@@ -896,7 +973,7 @@ li {
     #footer .content-footer .address {
       margin-left: 1.6rem;
       margin-top: 120px;
-      padding-right: 47px; }
+      padding-right: 13px; }
       #footer .content-footer .address span {
         display: block; }
       #footer .content-footer .address .city {
@@ -933,10 +1010,11 @@ li {
         font-size: 1rem;
         border-radius: 30px;
         border: none;
-        padding: 15px 40px; }
+        padding: 15px 40px;
+        color: #fff; }
     #footer .content-footer .icon-contact .icon-social {
       display: block;
-      padding: 14px 12px;
+      padding: 12px 12px;
       color: #fff;
       background-color: #cf9a2b;
       margin-bottom: 10px;
@@ -944,6 +1022,10 @@ li {
       top: 50%; }
     #footer .content-footer .icon-contact .icon-social-2 {
       top: 56%; }
+
+@media (max-width: 992px) {
+  #footer .content-footer .icon-contact .icon-social-2 {
+    top: 46%; } }
 
 #investment {
   padding: 30px 0 20px 0;
@@ -1025,8 +1107,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -1063,6 +1145,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -1084,10 +1169,13 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 .header {
   background-image: url("../../images/Home/banner.png");
   width: 100%;
+  position: relative;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1098,6 +1186,16 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #fff; }
+  .header .link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 9%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 13px; }
+    .header .link span {
+      font-size: 36px; }
   .header .logo {
     max-width: 236px;
     min-height: 164px;
@@ -1122,7 +1220,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 440px; }
+  min-height: 440px;
+  height: 100%; }
   #footer video {
     border-radius: 20px; }
   #footer .content-footer {
@@ -1135,7 +1234,7 @@ li {
     #footer .content-footer .address {
       margin-left: 1.6rem;
       margin-top: 120px;
-      padding-right: 47px; }
+      padding-right: 13px; }
       #footer .content-footer .address span {
         display: block; }
       #footer .content-footer .address .city {
@@ -1172,10 +1271,11 @@ li {
         font-size: 1rem;
         border-radius: 30px;
         border: none;
-        padding: 15px 40px; }
+        padding: 15px 40px;
+        color: #fff; }
     #footer .content-footer .icon-contact .icon-social {
       display: block;
-      padding: 14px 12px;
+      padding: 12px 12px;
       color: #fff;
       background-color: #cf9a2b;
       margin-bottom: 10px;
@@ -1183,6 +1283,10 @@ li {
       top: 50%; }
     #footer .content-footer .icon-contact .icon-social-2 {
       top: 56%; }
+
+@media (max-width: 992px) {
+  #footer .content-footer .icon-contact .icon-social-2 {
+    top: 46%; } }
 
 .pj-item {
   margin: 10px 0 1rem 0; }
@@ -1261,8 +1365,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -1299,6 +1403,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -1320,10 +1427,13 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 .header {
   background-image: url("../../images/Home/banner.png");
   width: 100%;
+  position: relative;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1334,6 +1444,16 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #fff; }
+  .header .link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 9%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 13px; }
+    .header .link span {
+      font-size: 36px; }
   .header .logo {
     max-width: 236px;
     min-height: 164px;
@@ -1358,7 +1478,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 440px; }
+  min-height: 440px;
+  height: 100%; }
   #footer video {
     border-radius: 20px; }
   #footer .content-footer {
@@ -1371,7 +1492,7 @@ li {
     #footer .content-footer .address {
       margin-left: 1.6rem;
       margin-top: 120px;
-      padding-right: 47px; }
+      padding-right: 13px; }
       #footer .content-footer .address span {
         display: block; }
       #footer .content-footer .address .city {
@@ -1408,10 +1529,11 @@ li {
         font-size: 1rem;
         border-radius: 30px;
         border: none;
-        padding: 15px 40px; }
+        padding: 15px 40px;
+        color: #fff; }
     #footer .content-footer .icon-contact .icon-social {
       display: block;
-      padding: 14px 12px;
+      padding: 12px 12px;
       color: #fff;
       background-color: #cf9a2b;
       margin-bottom: 10px;
@@ -1419,6 +1541,10 @@ li {
       top: 50%; }
     #footer .content-footer .icon-contact .icon-social-2 {
       top: 56%; }
+
+@media (max-width: 992px) {
+  #footer .content-footer .icon-contact .icon-social-2 {
+    top: 46%; } }
 
 #library, #video-library {
   font-family: "Open Sans", sans-serif; }
@@ -1494,6 +1620,7 @@ li {
 .header {
   background-image: url("../../images/Home/banner.png");
   width: 100%;
+  position: relative;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1504,6 +1631,16 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #fff; }
+  .header .link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 9%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 13px; }
+    .header .link span {
+      font-size: 36px; }
   .header .logo {
     max-width: 236px;
     min-height: 164px;
@@ -1528,7 +1665,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 440px; }
+  min-height: 440px;
+  height: 100%; }
   #footer video {
     border-radius: 20px; }
   #footer .content-footer {
@@ -1541,7 +1679,7 @@ li {
     #footer .content-footer .address {
       margin-left: 1.6rem;
       margin-top: 120px;
-      padding-right: 47px; }
+      padding-right: 13px; }
       #footer .content-footer .address span {
         display: block; }
       #footer .content-footer .address .city {
@@ -1578,10 +1716,11 @@ li {
         font-size: 1rem;
         border-radius: 30px;
         border: none;
-        padding: 15px 40px; }
+        padding: 15px 40px;
+        color: #fff; }
     #footer .content-footer .icon-contact .icon-social {
       display: block;
-      padding: 14px 12px;
+      padding: 12px 12px;
       color: #fff;
       background-color: #cf9a2b;
       margin-bottom: 10px;
@@ -1589,6 +1728,10 @@ li {
       top: 50%; }
     #footer .content-footer .icon-contact .icon-social-2 {
       top: 56%; }
+
+@media (max-width: 992px) {
+  #footer .content-footer .icon-contact .icon-social-2 {
+    top: 46%; } }
 
 .active-bg {
   color: #cf9a2b; }
@@ -1635,8 +1778,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -1673,6 +1816,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -1694,6 +1840,8 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 #content-main {
   width: 100%;
@@ -1761,7 +1909,7 @@ li {
           font-weight: 500;
           margin-top: 100px;
           border-radius: 30px;
-          padding: 5 15px;
+          padding: 5px 15px;
           font-size: 21px; }
     #content-main .list-invest .invest-item-1 {
       position: relative;
@@ -1883,8 +2031,8 @@ li {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       color: #fff;
-      padding: 0 20px;
-      margin-left: 100px; }
+      padding: 5px 2rem;
+      margin-left: -17px; }
   .project .demo-project .list-demo .bg-demo {
     min-height: 272px;
     background-repeat: no-repeat;
@@ -1921,6 +2069,9 @@ li {
         transform: rotate(90deg);
         color: red; }
 
+.ml-134 {
+  margin-left: 134px; }
+
 .project {
   position: relative; }
   .project .mid-menu {
@@ -1942,6 +2093,8 @@ li {
         color: #4b4b4b;
         font-size: 14px;
         text-transform: uppercase; }
+      .project .mid-menu .menu-project .project-pages .fsize {
+        font-weight: bold; }
 
 @media (min-width: 993px) and (max-width: 1299px) {
   #content-main .list-invest .img-ivest .info-invest p {
@@ -1949,7 +2102,14 @@ li {
   #content-main .list-invest .img-ivest .info-invest h2 {
     font-size: 1.5rem; }
   #content-main .pd-31 {
-    padding-top: 28px; } }
+    padding-top: 28px; }
+  .project .demo-project .img-demo {
+    border-radius: 20px;
+    min-height: 476px; }
+  #news .news-item {
+    position: absolute;
+    top: 0;
+    left: 13%; } }
 
 @media (max-width: 992px) {
   #content-main .pd-31 {
@@ -2035,7 +2195,13 @@ li {
   .bg-pj {
     padding: 20px 0; }
   #video-highlight video {
-    width: 100%; } }
+    width: 100%; }
+  .top-video {
+    padding: 0 20px; } }
+
+@media (max-width: 575px) {
+  #highlights-news .hl-news {
+    padding: 0; } }
 
 @media (max-width: 992px) {
   #main-content-info {
@@ -2055,6 +2221,14 @@ li {
       padding: .5rem 1.2rem; }
     #main-content-info .block-6 img {
       width: 100%; } }
+
+@media (max-width: 992px) {
+  .text-detail-pj {
+    padding: 0 0 20px 0; } }
+
+@media (max-width: 575px) {
+  #detail {
+    padding: 20px 0 !important; } }
 
 @media (max-width: 992px) {
   #footer {
@@ -2078,3 +2252,72 @@ li {
   .header .menu .menu-items {
     display: block;
     padding-bottom: 10px; } }
+
+#content-info-pj {
+  padding: 0 5rem; }
+
+.detail-pj {
+  margin-top: 2rem;
+  box-shadow: -1px 8px 17px -2px #888888; }
+
+.text-intro {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px 2rem; }
+  .text-intro h1 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #cc9236; }
+  .text-intro .text li {
+    display: block;
+    padding: .5rem 0; }
+    .text-intro .text li span {
+      font-weight: bold; }
+
+.img-detail-pj {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  .img-detail-pj img {
+    width: 100%;
+    height: 470px; }
+
+.text-detail-pj {
+  padding: 50px; }
+  .text-detail-pj p {
+    font-size: 17px; }
+  .text-detail-pj span {
+    display: block; }
+
+#detail {
+  margin-top: 2rem;
+  padding: 20px 5rem; }
+  #detail .detail-invest {
+    padding-top: 1rem;
+    font-family: "Open Sans", sans-serif; }
+    #detail .detail-invest p {
+      font-size: 19px;
+      font-weight: 400;
+      color: #4b4b4b; }
+    #detail .detail-invest h1 {
+      font-size: 37px;
+      font-weight: 700;
+      color: #00a859;
+      padding-bottom: 10px; }
+    #detail .detail-invest .img-detail {
+      position: relative; }
+      #detail .detail-invest .img-detail img {
+        width: 100%;
+        min-height: 562px; }
+      #detail .detail-invest .img-detail .carousel {
+        position: absolute;
+        bottom: 0;
+        left: 50%; }
+  #detail .img-detail-pj .w-274 {
+    height: 276px; }
+  #detail .img-detail-pj .h-554 {
+    height: 554px; }
+  #detail .text-detail {
+    font-family: "Open Sans", sans-serif; }
+    #detail .text-detail p {
+      font-size: 19px;
+      font-weight: 400;
+      color: #4b4b4b; }

@@ -53,8 +53,8 @@
                 font-family: $mon;
                 font-weight: 500;
                 color: $white;
-                padding: 0 20px;
-                margin-left: 100px;
+                padding: 5px 2rem;
+                margin-left: -17px;
             }
         }
         .list-demo{
@@ -109,6 +109,9 @@
 }
 // END DEMO PROJECT
 // LIST PROJECT
+.ml-134{
+    margin-left: 134px;
+}
 .project{
     position: relative;
     .mid-menu{
@@ -131,6 +134,9 @@
                     color: $grey-text;
                     font-size: 14px;
                     text-transform: uppercase;
+                }
+                .fsize{
+                    font-weight: bold;
                 }
             }
         }
